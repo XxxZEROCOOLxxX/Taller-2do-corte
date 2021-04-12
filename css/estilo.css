@@ -1,0 +1,53 @@
+h6, aside#menu-moviles nav a { font-family: 'Permanent Marker', cursive; } 
+h1, h2, h3, h4, h5 { font-family: 'Barlow', sans-serif; }
+p, a, button, form, input, select, option, textarea, em, span, strong, div { font-family: 'Roboto', sans-serif; }
+
+header, main, footer, aside, section, article, figure, nav, div { display:block; }
+
+h1, h2, h3, h4, h5, h6, p, figure { margin: 0 ;} 
+
+body { margin: 0 !important; }
+
+
+/* MAquetacion estilo y acabado CSS */
+                
+
+/* Header */
+
+header { width: 100%; height: 80px; margin: 0; float: none; position: fixed; top: 0; left: 0; z-index: 99990 ;background: #fff }
+
+
+    /* main */       
+main { width: 100%; height: auto; margin: 100px auto 0 auto; float: none; position: relative; }
+
+/* Banner video Youtube */
+main section#banner-video-youtube { width: 100%; height: auto; margin: 0 auto; float: none; position: relative; }
+main section#banner-video-youtube iframe { width: 100%; height: 88vh; margin: 0 auto; float: none; position: relative; } 
+
+
+/* FOOTER */
+footer { width: 100%; height: 100px; margin: 0; float: none; position: relative; background: url('../img/footer_bg.png') no-repeat top center #333; background-size: cover; }
+
+
+/* Zona Responsive Web Design - Media Queries */
+
+/* Rango de Tablets: (max 1199px y min 500px) */
+@media only screen and (max-width:1199px){
+    header { height: 80px; box-shadow: 0 3px 5px rgba(0 0 0 / 15%); }
+
+    /* Banner video Youtube */
+    main section#banner-video-youtube iframe { height: 70vh; } 
+}
+
+/* Rango de Smarthphone: (max 499px y min 400px) */
+@media only screen and (max-with: 499px){
+
+}
+
+/* Rango de Mini-Smarthphone: (max 399px y min 340px) */
+@media only screen and (max-with: 399px){
+
+}
+
+
+
